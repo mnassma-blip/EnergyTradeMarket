@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "EnergyTradeMarket: Decision Making System for P2P Energy Trading in Energy Market"
+type: software
+url: "https://github.com/mnassma-blip/EnergyTradeMarket"
+authors:
+  - family-names: "Mohandes"
+    given-names: "Nassma"
+preferred-citation:
+  type: article
+  title: "Decentralized PV Energy Trading: A Case Study of Residential Households in Qatar"
+  authors:
+    - family-names: "Mohandes"
+      given-names: "Nassma"
+    - family-names: "Bayhan"
+      given-names: "Sertac"
+    - family-names: "Sanfilippo"
+      given-names: "Antonio"
+    - family-names: "Abu-Rub"
+      given-names: "Haitham"
+  journal: "IEEE Access"
+  volume: 12
+  start: 153457
+  end: 153470
+  year: 2024
+  month: 10
+  doi: "10.1109/ACCESS.2024.3479270"
+  url: "https://doi.org/10.1109/ACCESS.2024.3479270"
