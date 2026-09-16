@@ -1,6 +1,9 @@
 # EnergyTradeMarket
 Decision Making System for P2P Energy Trading in Energy Market
 code available for academic/non-commercial use only
+
+## How to cite If you use this code, please cite: N. Mohandes, S. Bayhan, A. Sanfilippo and H. Abu-Rub, "Decentralized PV Energy Trading: A Case Study of Residential Households in Qatar," IEEE Access, vol. 12, pp. 153457–153470, 2024, doi: 10.1109/ACCESS.2024.3479270
+
 ## What the model does
 A NetLogo agent-based model of a peer-to-peer household energy market. Each
 household ("prosumer") has hourly solar generation and demand; the model runs
