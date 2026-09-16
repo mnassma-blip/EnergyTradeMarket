@@ -17,7 +17,7 @@ Loaded in `load-data` at setup.
 **Format** (comma-separated):
 - Row 1: header row (skipped, content doesn't matter).
 - Each following row = one household, with:
-  - Column 1: household name (e.g. `2bedroom1`) — this name is reused to find
+  - Column 1: household name (e.g. `2bedroom1`) this name is reused to find
     that household's demand file (see below), so it must match exactly.
   - Columns 2–25: 24 hourly generation values (one representative day's
     generation profile, hour 1 → hour 24).
