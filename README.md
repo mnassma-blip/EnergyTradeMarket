@@ -1,5 +1,6 @@
 # EnergyTradeMarket
 Decision Making System for P2P Energy Trading in Energy Market
+code available for academic/non-commercial use only
 ## What the model does
 A NetLogo agent-based model of a peer-to-peer household energy market. Each
 household ("prosumer") has hourly solar generation and demand; the model runs
