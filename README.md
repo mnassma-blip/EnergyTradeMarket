@@ -15,33 +15,17 @@ Everything below must sit in the **same folder** as the `.nlogo` file
 Loaded in `load-data` at setup.
 
 **Format** (comma-separated):
-- Row 1: header row (skipped, content doesn't matter).
-- Each following row = one household, with:
-  - Column 1: household name (e.g. `2bedroom1`) this name is reused to find
+   household name (e.g. `2bedroom1`) this name is reused to find
     that household's demand file (see below), so it must match exactly.
   - Columns 2–25: 24 hourly generation values (one representative day's
     generation profile, hour 1 → hour 24).
 - The number of data rows = the number of households (`prosumer`) created.
 
-### 2. Per-household demand file — required, one per household
-Loaded in `get-demand-matrix`, filename built automatically as:
-
-```
-hourly_average_clone_Dec_<household-name>.csv
-```
-
-e.g. for household name `2bedroom1` the model expects
-`hourly_average_clone_Dec_2bedroom1.csv` in the model folder. You need one
-such file for **every household name** that appears in the generation
+### 2. Per-household demand file required, one per household
+You need one such file for **every household name** that appears in the generation
 profile file.
 
-**Format**:
-- Rows = hours (24), each row's first column is a row label (skipped).
-- Remaining columns = one column per day of the month; the model selects the
-  column for the current simulated day (`day-now`, plus offset 1) to build
-  that day's 24-hour demand list.
-
-### 3. Output files — created automatically (not inputs)
+### 3. Output files created automatically (not inputs)
 If `Save-Results?` is **On**, the model writes/overwrites these CSVs in the
 model folder while running: `prosumerresults.csv`,
 `buyersellerdailyresults.csv`, `buyersellerhourlyresults.csv`.
